@@ -1,10 +1,10 @@
 const mysql = require("mysql2");
 
 const options = {
-  host: process.env.HOST || 'localhost',
-  user: process.env.USER || "root",
-  password: process.env.PASSWORD || '',
-  database: process.env.DATABASE || 'gwen',
+  host: "bevh9rsyvmakx4iv7xkl-mysql.services.clever-cloud.com",
+  database: "bevh9rsyvmakx4iv7xkl",
+  user: "uoa5fslaquxwd4z0",
+  password: "6EQl2HWc9rkO14J7BjKv",
   connectionLimit: 10,
 };
 
