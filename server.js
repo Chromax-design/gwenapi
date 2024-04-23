@@ -11,7 +11,7 @@ dotEnv.config();
 
 const app = express();
 
-app.use(cors({ origin: ["http://localhost:5173", "http://localhost:5174", "https://gwenapi.onrender.com"] }));
+app.use(cors({ origin: ["http://localhost:5173", "http://localhost:5174", "https://gwenblog.netlify.app"] }));
 app.use("/uploads", express.static(path.join(__dirname, "/uploads/posts")));
 app.use(express.json());
 app.use(bodyparser.urlencoded({ extended: true }));
